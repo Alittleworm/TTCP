@@ -28,7 +28,7 @@ SET(SRC_FILES
 	
 
 
-FIND_LIBRARY(/usr/local/lib /usr/lib64  NO_DEFAULT_PATH)
+FIND_LIBRARY(/usr/local/lib /usr/lib64  /lib61 NO_DEFAULT_PATH)
 SET(CXX_FLAGS -g -Wall -fPIC)
 ADD_DEFINITIONS(${CXX_FLAGS} -std=c++0x)
 

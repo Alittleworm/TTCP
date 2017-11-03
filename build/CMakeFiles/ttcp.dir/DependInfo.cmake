@@ -4,11 +4,11 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/DzhenDi/dd/ttcp/Timestamp.cc" "/home/DzhenDi/dd/build/CMakeFiles/ttcp.dir/Timestamp.cc.o"
-  "/home/DzhenDi/dd/ttcp/common.cc" "/home/DzhenDi/dd/build/CMakeFiles/ttcp.dir/common.cc.o"
-  "/home/DzhenDi/dd/ttcp/main.cc" "/home/DzhenDi/dd/build/CMakeFiles/ttcp.dir/main.cc.o"
-  "/home/DzhenDi/dd/ttcp/ttcp.cc" "/home/DzhenDi/dd/build/CMakeFiles/ttcp.dir/ttcp.cc.o"
-  "/home/DzhenDi/dd/ttcp/ttcp_blocking.cc" "/home/DzhenDi/dd/build/CMakeFiles/ttcp.dir/ttcp_blocking.cc.o"
+  "/home/dd/dd/TTCP/ttcp/Timestamp.cc" "/home/dd/dd/TTCP/build/CMakeFiles/ttcp.dir/Timestamp.cc.o"
+  "/home/dd/dd/TTCP/ttcp/common.cc" "/home/dd/dd/TTCP/build/CMakeFiles/ttcp.dir/common.cc.o"
+  "/home/dd/dd/TTCP/ttcp/main.cc" "/home/dd/dd/TTCP/build/CMakeFiles/ttcp.dir/main.cc.o"
+  "/home/dd/dd/TTCP/ttcp/ttcp.cc" "/home/dd/dd/TTCP/build/CMakeFiles/ttcp.dir/ttcp.cc.o"
+  "/home/dd/dd/TTCP/ttcp/ttcp_blocking.cc" "/home/dd/dd/TTCP/build/CMakeFiles/ttcp.dir/ttcp_blocking.cc.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 

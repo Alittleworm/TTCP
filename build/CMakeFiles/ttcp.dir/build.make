@@ -38,10 +38,10 @@ EQUALS = =
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/DzhenDi/dd/ttcp
+CMAKE_SOURCE_DIR = /home/dd/dd/TTCP/ttcp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/DzhenDi/dd/build
+CMAKE_BINARY_DIR = /home/dd/dd/TTCP/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ttcp.dir/depend.make
@@ -52,65 +52,19 @@ include CMakeFiles/ttcp.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ttcp.dir/flags.make
 
-CMakeFiles/ttcp.dir/ttcp.cc.o: CMakeFiles/ttcp.dir/flags.make
-CMakeFiles/ttcp.dir/ttcp.cc.o: /home/DzhenDi/dd/ttcp/ttcp.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/DzhenDi/dd/build/CMakeFiles $(CMAKE_PROGRESS_1)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/ttcp.dir/ttcp.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ttcp.dir/ttcp.cc.o -c /home/DzhenDi/dd/ttcp/ttcp.cc
-
-CMakeFiles/ttcp.dir/ttcp.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ttcp.dir/ttcp.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/DzhenDi/dd/ttcp/ttcp.cc > CMakeFiles/ttcp.dir/ttcp.cc.i
-
-CMakeFiles/ttcp.dir/ttcp.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ttcp.dir/ttcp.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/DzhenDi/dd/ttcp/ttcp.cc -o CMakeFiles/ttcp.dir/ttcp.cc.s
-
-CMakeFiles/ttcp.dir/ttcp.cc.o.requires:
-.PHONY : CMakeFiles/ttcp.dir/ttcp.cc.o.requires
-
-CMakeFiles/ttcp.dir/ttcp.cc.o.provides: CMakeFiles/ttcp.dir/ttcp.cc.o.requires
-	$(MAKE) -f CMakeFiles/ttcp.dir/build.make CMakeFiles/ttcp.dir/ttcp.cc.o.provides.build
-.PHONY : CMakeFiles/ttcp.dir/ttcp.cc.o.provides
-
-CMakeFiles/ttcp.dir/ttcp.cc.o.provides.build: CMakeFiles/ttcp.dir/ttcp.cc.o
-
-CMakeFiles/ttcp.dir/common.cc.o: CMakeFiles/ttcp.dir/flags.make
-CMakeFiles/ttcp.dir/common.cc.o: /home/DzhenDi/dd/ttcp/common.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/DzhenDi/dd/build/CMakeFiles $(CMAKE_PROGRESS_2)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/ttcp.dir/common.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ttcp.dir/common.cc.o -c /home/DzhenDi/dd/ttcp/common.cc
-
-CMakeFiles/ttcp.dir/common.cc.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ttcp.dir/common.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/DzhenDi/dd/ttcp/common.cc > CMakeFiles/ttcp.dir/common.cc.i
-
-CMakeFiles/ttcp.dir/common.cc.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ttcp.dir/common.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/DzhenDi/dd/ttcp/common.cc -o CMakeFiles/ttcp.dir/common.cc.s
-
-CMakeFiles/ttcp.dir/common.cc.o.requires:
-.PHONY : CMakeFiles/ttcp.dir/common.cc.o.requires
-
-CMakeFiles/ttcp.dir/common.cc.o.provides: CMakeFiles/ttcp.dir/common.cc.o.requires
-	$(MAKE) -f CMakeFiles/ttcp.dir/build.make CMakeFiles/ttcp.dir/common.cc.o.provides.build
-.PHONY : CMakeFiles/ttcp.dir/common.cc.o.provides
-
-CMakeFiles/ttcp.dir/common.cc.o.provides.build: CMakeFiles/ttcp.dir/common.cc.o
-
 CMakeFiles/ttcp.dir/Timestamp.cc.o: CMakeFiles/ttcp.dir/flags.make
-CMakeFiles/ttcp.dir/Timestamp.cc.o: /home/DzhenDi/dd/ttcp/Timestamp.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/DzhenDi/dd/build/CMakeFiles $(CMAKE_PROGRESS_3)
+CMakeFiles/ttcp.dir/Timestamp.cc.o: /home/dd/dd/TTCP/ttcp/Timestamp.cc
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/dd/dd/TTCP/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/ttcp.dir/Timestamp.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ttcp.dir/Timestamp.cc.o -c /home/DzhenDi/dd/ttcp/Timestamp.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ttcp.dir/Timestamp.cc.o -c /home/dd/dd/TTCP/ttcp/Timestamp.cc
 
 CMakeFiles/ttcp.dir/Timestamp.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ttcp.dir/Timestamp.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/DzhenDi/dd/ttcp/Timestamp.cc > CMakeFiles/ttcp.dir/Timestamp.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/dd/dd/TTCP/ttcp/Timestamp.cc > CMakeFiles/ttcp.dir/Timestamp.cc.i
 
 CMakeFiles/ttcp.dir/Timestamp.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ttcp.dir/Timestamp.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/DzhenDi/dd/ttcp/Timestamp.cc -o CMakeFiles/ttcp.dir/Timestamp.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/dd/dd/TTCP/ttcp/Timestamp.cc -o CMakeFiles/ttcp.dir/Timestamp.cc.s
 
 CMakeFiles/ttcp.dir/Timestamp.cc.o.requires:
 .PHONY : CMakeFiles/ttcp.dir/Timestamp.cc.o.requires
@@ -121,19 +75,42 @@ CMakeFiles/ttcp.dir/Timestamp.cc.o.provides: CMakeFiles/ttcp.dir/Timestamp.cc.o.
 
 CMakeFiles/ttcp.dir/Timestamp.cc.o.provides.build: CMakeFiles/ttcp.dir/Timestamp.cc.o
 
+CMakeFiles/ttcp.dir/common.cc.o: CMakeFiles/ttcp.dir/flags.make
+CMakeFiles/ttcp.dir/common.cc.o: /home/dd/dd/TTCP/ttcp/common.cc
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/dd/dd/TTCP/build/CMakeFiles $(CMAKE_PROGRESS_2)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/ttcp.dir/common.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ttcp.dir/common.cc.o -c /home/dd/dd/TTCP/ttcp/common.cc
+
+CMakeFiles/ttcp.dir/common.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ttcp.dir/common.cc.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/dd/dd/TTCP/ttcp/common.cc > CMakeFiles/ttcp.dir/common.cc.i
+
+CMakeFiles/ttcp.dir/common.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ttcp.dir/common.cc.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/dd/dd/TTCP/ttcp/common.cc -o CMakeFiles/ttcp.dir/common.cc.s
+
+CMakeFiles/ttcp.dir/common.cc.o.requires:
+.PHONY : CMakeFiles/ttcp.dir/common.cc.o.requires
+
+CMakeFiles/ttcp.dir/common.cc.o.provides: CMakeFiles/ttcp.dir/common.cc.o.requires
+	$(MAKE) -f CMakeFiles/ttcp.dir/build.make CMakeFiles/ttcp.dir/common.cc.o.provides.build
+.PHONY : CMakeFiles/ttcp.dir/common.cc.o.provides
+
+CMakeFiles/ttcp.dir/common.cc.o.provides.build: CMakeFiles/ttcp.dir/common.cc.o
+
 CMakeFiles/ttcp.dir/main.cc.o: CMakeFiles/ttcp.dir/flags.make
-CMakeFiles/ttcp.dir/main.cc.o: /home/DzhenDi/dd/ttcp/main.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/DzhenDi/dd/build/CMakeFiles $(CMAKE_PROGRESS_4)
+CMakeFiles/ttcp.dir/main.cc.o: /home/dd/dd/TTCP/ttcp/main.cc
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/dd/dd/TTCP/build/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/ttcp.dir/main.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ttcp.dir/main.cc.o -c /home/DzhenDi/dd/ttcp/main.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ttcp.dir/main.cc.o -c /home/dd/dd/TTCP/ttcp/main.cc
 
 CMakeFiles/ttcp.dir/main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ttcp.dir/main.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/DzhenDi/dd/ttcp/main.cc > CMakeFiles/ttcp.dir/main.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/dd/dd/TTCP/ttcp/main.cc > CMakeFiles/ttcp.dir/main.cc.i
 
 CMakeFiles/ttcp.dir/main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ttcp.dir/main.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/DzhenDi/dd/ttcp/main.cc -o CMakeFiles/ttcp.dir/main.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/dd/dd/TTCP/ttcp/main.cc -o CMakeFiles/ttcp.dir/main.cc.s
 
 CMakeFiles/ttcp.dir/main.cc.o.requires:
 .PHONY : CMakeFiles/ttcp.dir/main.cc.o.requires
@@ -144,19 +121,42 @@ CMakeFiles/ttcp.dir/main.cc.o.provides: CMakeFiles/ttcp.dir/main.cc.o.requires
 
 CMakeFiles/ttcp.dir/main.cc.o.provides.build: CMakeFiles/ttcp.dir/main.cc.o
 
+CMakeFiles/ttcp.dir/ttcp.cc.o: CMakeFiles/ttcp.dir/flags.make
+CMakeFiles/ttcp.dir/ttcp.cc.o: /home/dd/dd/TTCP/ttcp/ttcp.cc
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/dd/dd/TTCP/build/CMakeFiles $(CMAKE_PROGRESS_4)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/ttcp.dir/ttcp.cc.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ttcp.dir/ttcp.cc.o -c /home/dd/dd/TTCP/ttcp/ttcp.cc
+
+CMakeFiles/ttcp.dir/ttcp.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ttcp.dir/ttcp.cc.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/dd/dd/TTCP/ttcp/ttcp.cc > CMakeFiles/ttcp.dir/ttcp.cc.i
+
+CMakeFiles/ttcp.dir/ttcp.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ttcp.dir/ttcp.cc.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/dd/dd/TTCP/ttcp/ttcp.cc -o CMakeFiles/ttcp.dir/ttcp.cc.s
+
+CMakeFiles/ttcp.dir/ttcp.cc.o.requires:
+.PHONY : CMakeFiles/ttcp.dir/ttcp.cc.o.requires
+
+CMakeFiles/ttcp.dir/ttcp.cc.o.provides: CMakeFiles/ttcp.dir/ttcp.cc.o.requires
+	$(MAKE) -f CMakeFiles/ttcp.dir/build.make CMakeFiles/ttcp.dir/ttcp.cc.o.provides.build
+.PHONY : CMakeFiles/ttcp.dir/ttcp.cc.o.provides
+
+CMakeFiles/ttcp.dir/ttcp.cc.o.provides.build: CMakeFiles/ttcp.dir/ttcp.cc.o
+
 CMakeFiles/ttcp.dir/ttcp_blocking.cc.o: CMakeFiles/ttcp.dir/flags.make
-CMakeFiles/ttcp.dir/ttcp_blocking.cc.o: /home/DzhenDi/dd/ttcp/ttcp_blocking.cc
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/DzhenDi/dd/build/CMakeFiles $(CMAKE_PROGRESS_5)
+CMakeFiles/ttcp.dir/ttcp_blocking.cc.o: /home/dd/dd/TTCP/ttcp/ttcp_blocking.cc
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/dd/dd/TTCP/build/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/ttcp.dir/ttcp_blocking.cc.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ttcp.dir/ttcp_blocking.cc.o -c /home/DzhenDi/dd/ttcp/ttcp_blocking.cc
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/ttcp.dir/ttcp_blocking.cc.o -c /home/dd/dd/TTCP/ttcp/ttcp_blocking.cc
 
 CMakeFiles/ttcp.dir/ttcp_blocking.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ttcp.dir/ttcp_blocking.cc.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/DzhenDi/dd/ttcp/ttcp_blocking.cc > CMakeFiles/ttcp.dir/ttcp_blocking.cc.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/dd/dd/TTCP/ttcp/ttcp_blocking.cc > CMakeFiles/ttcp.dir/ttcp_blocking.cc.i
 
 CMakeFiles/ttcp.dir/ttcp_blocking.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ttcp.dir/ttcp_blocking.cc.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/DzhenDi/dd/ttcp/ttcp_blocking.cc -o CMakeFiles/ttcp.dir/ttcp_blocking.cc.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/dd/dd/TTCP/ttcp/ttcp_blocking.cc -o CMakeFiles/ttcp.dir/ttcp_blocking.cc.s
 
 CMakeFiles/ttcp.dir/ttcp_blocking.cc.o.requires:
 .PHONY : CMakeFiles/ttcp.dir/ttcp_blocking.cc.o.requires
@@ -169,33 +169,33 @@ CMakeFiles/ttcp.dir/ttcp_blocking.cc.o.provides.build: CMakeFiles/ttcp.dir/ttcp_
 
 # Object files for target ttcp
 ttcp_OBJECTS = \
-"CMakeFiles/ttcp.dir/ttcp.cc.o" \
-"CMakeFiles/ttcp.dir/common.cc.o" \
 "CMakeFiles/ttcp.dir/Timestamp.cc.o" \
+"CMakeFiles/ttcp.dir/common.cc.o" \
 "CMakeFiles/ttcp.dir/main.cc.o" \
+"CMakeFiles/ttcp.dir/ttcp.cc.o" \
 "CMakeFiles/ttcp.dir/ttcp_blocking.cc.o"
 
 # External object files for target ttcp
 ttcp_EXTERNAL_OBJECTS =
 
-/home/DzhenDi/dd/bin/ttcp: CMakeFiles/ttcp.dir/ttcp.cc.o
-/home/DzhenDi/dd/bin/ttcp: CMakeFiles/ttcp.dir/common.cc.o
-/home/DzhenDi/dd/bin/ttcp: CMakeFiles/ttcp.dir/Timestamp.cc.o
-/home/DzhenDi/dd/bin/ttcp: CMakeFiles/ttcp.dir/main.cc.o
-/home/DzhenDi/dd/bin/ttcp: CMakeFiles/ttcp.dir/ttcp_blocking.cc.o
-/home/DzhenDi/dd/bin/ttcp: CMakeFiles/ttcp.dir/build.make
-/home/DzhenDi/dd/bin/ttcp: CMakeFiles/ttcp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable /home/DzhenDi/dd/bin/ttcp"
+/home/dd/dd/TTCP/bin/ttcp: CMakeFiles/ttcp.dir/Timestamp.cc.o
+/home/dd/dd/TTCP/bin/ttcp: CMakeFiles/ttcp.dir/common.cc.o
+/home/dd/dd/TTCP/bin/ttcp: CMakeFiles/ttcp.dir/main.cc.o
+/home/dd/dd/TTCP/bin/ttcp: CMakeFiles/ttcp.dir/ttcp.cc.o
+/home/dd/dd/TTCP/bin/ttcp: CMakeFiles/ttcp.dir/ttcp_blocking.cc.o
+/home/dd/dd/TTCP/bin/ttcp: CMakeFiles/ttcp.dir/build.make
+/home/dd/dd/TTCP/bin/ttcp: CMakeFiles/ttcp.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable /home/dd/dd/TTCP/bin/ttcp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ttcp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/ttcp.dir/build: /home/DzhenDi/dd/bin/ttcp
+CMakeFiles/ttcp.dir/build: /home/dd/dd/TTCP/bin/ttcp
 .PHONY : CMakeFiles/ttcp.dir/build
 
-CMakeFiles/ttcp.dir/requires: CMakeFiles/ttcp.dir/ttcp.cc.o.requires
-CMakeFiles/ttcp.dir/requires: CMakeFiles/ttcp.dir/common.cc.o.requires
 CMakeFiles/ttcp.dir/requires: CMakeFiles/ttcp.dir/Timestamp.cc.o.requires
+CMakeFiles/ttcp.dir/requires: CMakeFiles/ttcp.dir/common.cc.o.requires
 CMakeFiles/ttcp.dir/requires: CMakeFiles/ttcp.dir/main.cc.o.requires
+CMakeFiles/ttcp.dir/requires: CMakeFiles/ttcp.dir/ttcp.cc.o.requires
 CMakeFiles/ttcp.dir/requires: CMakeFiles/ttcp.dir/ttcp_blocking.cc.o.requires
 .PHONY : CMakeFiles/ttcp.dir/requires
 
@@ -204,6 +204,6 @@ CMakeFiles/ttcp.dir/clean:
 .PHONY : CMakeFiles/ttcp.dir/clean
 
 CMakeFiles/ttcp.dir/depend:
-	cd /home/DzhenDi/dd/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/DzhenDi/dd/ttcp /home/DzhenDi/dd/ttcp /home/DzhenDi/dd/build /home/DzhenDi/dd/build /home/DzhenDi/dd/build/CMakeFiles/ttcp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dd/dd/TTCP/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dd/dd/TTCP/ttcp /home/dd/dd/TTCP/ttcp /home/dd/dd/TTCP/build /home/dd/dd/TTCP/build /home/dd/dd/TTCP/build/CMakeFiles/ttcp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ttcp.dir/depend
 
