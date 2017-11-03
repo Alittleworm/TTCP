@@ -1,0 +1,340 @@
+cscope 16 $HOME\Desktop\UnpCode\ttcp               0000001822
+	@C:\Users\DzhenDi\Desktop\UnpCode\ttcp\Timestamp.h
+
+1 #iâdeà
+__BASE_TIMESTAMP_H__
+
+
+2 
+	#__BASE_TIMESTAMP_H__
+
+
+	)
+
+4 
+	~<io¡»am
+>
+
+5 
+	~<boo¡/Ý”©Ü.hµ
+>
+
+8 
+Çme¥aû
+ 
+	gúmua
+
+
+11 þas 
+	cTime¡amp
+
+
+13 
+	gpublic
+:
+
+14 
+Time¡amp
+();
+
+15 
+ex¶ic™
+ 
+Time¡amp
+(
+št64_t
+ 
+miüoSecÚdSšûEpoch
+);
+
+16 
+sw­
+(
+Time¡amp
+& 
+th©
+);
+
+17 
+Time¡amp
+ 
+now
+();
+
+18 cÚ¡ 
+	gkMiüoSecÚdsP”SecÚd
+ = 1000*1000;
+
+19 
+št64_t
+ 
+miüoSecÚdsSšûEpoch
+(){ 
+	gmiüoSecÚdsSšûEpoch_
+};
+
+20 
+	g´iv©e
+:
+
+21 
+št64_t
+ 
+miüoSecÚdsSšûEpoch_
+;
+
+24 
+šlše
+ 
+	$timeDifã»nû
+(
+Time¡amp
+ 
+high
+, Time¡am°
+low
+)
+
+26 
+št64_t
+ 
+diff
+ = 
+high
+.
+	`miüoSecÚdSšûEpoch
+(è- 
+low
+.microSecondSinceEpoch();
+
+27  
+¡©ic_ÿ¡
+<>(
+diff
+è/ 
+Time¡amp
+::
+kMiüoSecÚdsP”SecÚd
+;
+
+28 
+	}
+}
+
+	@C:\Users\DzhenDi\Desktop\UnpCode\ttcp\common.h
+
+1 #´agm¨
+Úû
+
+
+3 
+	~<¡ršg
+>
+
+4 
+	~<¡dšt.h
+>
+
+6 
+	sO±iÚs
+
+
+8 
+ušt16_t
+ 
+	mpÜt
+;
+
+9 
+	mËngth
+;
+
+10 
+	mnumb”
+;
+
+11 
+boÞ
+ 
+	mŒªsm™
+, 
+	m»ûive
+, 
+	mnod–ay
+;
+
+12 
+	m¡d
+::
+¡ršg
+ 
+ho¡
+;
+
+13 
+O±iÚs
+()
+
+14 : 
+pÜt
+(0), 
+Ëngth
+(0), 
+numb”
+(0),
+
+15 
+Œªsm™
+(
+çl£
+), 
+»ûive
+(çl£), 
+nod–ay
+(false)
+
+20 
+boÞ
+ 
+·r£CommªdLše
+(
+¬gc
+, * 
+¬gv
+[], 
+O±iÚs
+* 
+Ýt
+);
+
+21 
+sockaddr_š
+ 
+»sÞveOrD›
+(cÚ¡ * 
+ho¡
+, 
+ušt16_t
+ 
+pÜt
+);
+
+23 
+	sSessiÚMes§ge
+
+
+25 
+št32_t
+ 
+	mnumb”
+;
+
+26 
+št32_t
+ 
+	mËngth
+;
+
+27 } 
+__©Œibu‹__
+ ((
+__·cked__
+));
+
+29 
+	sPaylßdMes§ge
+
+
+31 
+št32_t
+ 
+	mËngth
+;
+
+32 
+	md©a
+[0];
+
+35 
+Œªsm™
+(cÚ¡ 
+O±iÚs
+& 
+Ýt
+);
+
+37 
+»ûive
+(cÚ¡ 
+O±iÚs
+& 
+Ýt
+);
+
+	@C:\Users\DzhenDi\Desktop\UnpCode\ttcp\mytime.h
+
+1 #´agm¨
+Úû
+
+
+2 
+	~<io¡»am
+>
+
+4 
+Çme¥aû
+ 
+	gdd
+
+
+7 þas 
+	cTime¡amp
+
+
+9 
+	gpiblic
+:
+
+10 
+Time¡amp
+();
+
+11 
+ex¶ic™
+ 
+Time¡amp
+(
+št64_t
+ 
+miüoSecÚdsSšûEpochArg
+);
+
+12 
+Time¡amp
+ 
+now
+();
+
+14 cÚ¡ 
+	gmiüoSecÚdsSšûEpochArg
+ = 1000*1000;
+
+15 
+	g´iv‘e
+:
+
+16 
+št64_t
+ 
+miüoSecÚdsSšûEpoch_
+;
+
+	@
+1
+.
+0
+3
+144
+C:\Users\DzhenDi\Desktop\UnpCode\ttcp\Timestamp.h
+C:\Users\DzhenDi\Desktop\UnpCode\ttcp\common.h
+C:\Users\DzhenDi\Desktop\UnpCode\ttcp\mytime.h
