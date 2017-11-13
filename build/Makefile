@@ -102,24 +102,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named ttcp
+# Target rules for targets named echo
 
 # Build rule for target.
-ttcp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ttcp
-.PHONY : ttcp
+echo: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 echo
+.PHONY : echo
 
 # fast build rule for target.
-ttcp/fast:
-	$(MAKE) -f CMakeFiles/ttcp.dir/build.make CMakeFiles/ttcp.dir/build
-.PHONY : ttcp/fast
+echo/fast:
+	$(MAKE) -f CMakeFiles/echo.dir/build.make CMakeFiles/echo.dir/build
+.PHONY : echo/fast
 
 Timestamp.o: Timestamp.cc.o
 .PHONY : Timestamp.o
 
 # target to build an object file
 Timestamp.cc.o:
-	$(MAKE) -f CMakeFiles/ttcp.dir/build.make CMakeFiles/ttcp.dir/Timestamp.cc.o
+	$(MAKE) -f CMakeFiles/echo.dir/build.make CMakeFiles/echo.dir/Timestamp.cc.o
 .PHONY : Timestamp.cc.o
 
 Timestamp.i: Timestamp.cc.i
@@ -127,7 +127,7 @@ Timestamp.i: Timestamp.cc.i
 
 # target to preprocess a source file
 Timestamp.cc.i:
-	$(MAKE) -f CMakeFiles/ttcp.dir/build.make CMakeFiles/ttcp.dir/Timestamp.cc.i
+	$(MAKE) -f CMakeFiles/echo.dir/build.make CMakeFiles/echo.dir/Timestamp.cc.i
 .PHONY : Timestamp.cc.i
 
 Timestamp.s: Timestamp.cc.s
@@ -135,7 +135,7 @@ Timestamp.s: Timestamp.cc.s
 
 # target to generate assembly for a file
 Timestamp.cc.s:
-	$(MAKE) -f CMakeFiles/ttcp.dir/build.make CMakeFiles/ttcp.dir/Timestamp.cc.s
+	$(MAKE) -f CMakeFiles/echo.dir/build.make CMakeFiles/echo.dir/Timestamp.cc.s
 .PHONY : Timestamp.cc.s
 
 common.o: common.cc.o
@@ -143,7 +143,7 @@ common.o: common.cc.o
 
 # target to build an object file
 common.cc.o:
-	$(MAKE) -f CMakeFiles/ttcp.dir/build.make CMakeFiles/ttcp.dir/common.cc.o
+	$(MAKE) -f CMakeFiles/echo.dir/build.make CMakeFiles/echo.dir/common.cc.o
 .PHONY : common.cc.o
 
 common.i: common.cc.i
@@ -151,7 +151,7 @@ common.i: common.cc.i
 
 # target to preprocess a source file
 common.cc.i:
-	$(MAKE) -f CMakeFiles/ttcp.dir/build.make CMakeFiles/ttcp.dir/common.cc.i
+	$(MAKE) -f CMakeFiles/echo.dir/build.make CMakeFiles/echo.dir/common.cc.i
 .PHONY : common.cc.i
 
 common.s: common.cc.s
@@ -159,15 +159,39 @@ common.s: common.cc.s
 
 # target to generate assembly for a file
 common.cc.s:
-	$(MAKE) -f CMakeFiles/ttcp.dir/build.make CMakeFiles/ttcp.dir/common.cc.s
+	$(MAKE) -f CMakeFiles/echo.dir/build.make CMakeFiles/echo.dir/common.cc.s
 .PHONY : common.cc.s
+
+echo.o: echo.cc.o
+.PHONY : echo.o
+
+# target to build an object file
+echo.cc.o:
+	$(MAKE) -f CMakeFiles/echo.dir/build.make CMakeFiles/echo.dir/echo.cc.o
+.PHONY : echo.cc.o
+
+echo.i: echo.cc.i
+.PHONY : echo.i
+
+# target to preprocess a source file
+echo.cc.i:
+	$(MAKE) -f CMakeFiles/echo.dir/build.make CMakeFiles/echo.dir/echo.cc.i
+.PHONY : echo.cc.i
+
+echo.s: echo.cc.s
+.PHONY : echo.s
+
+# target to generate assembly for a file
+echo.cc.s:
+	$(MAKE) -f CMakeFiles/echo.dir/build.make CMakeFiles/echo.dir/echo.cc.s
+.PHONY : echo.cc.s
 
 main.o: main.cc.o
 .PHONY : main.o
 
 # target to build an object file
 main.cc.o:
-	$(MAKE) -f CMakeFiles/ttcp.dir/build.make CMakeFiles/ttcp.dir/main.cc.o
+	$(MAKE) -f CMakeFiles/echo.dir/build.make CMakeFiles/echo.dir/main.cc.o
 .PHONY : main.cc.o
 
 main.i: main.cc.i
@@ -175,7 +199,7 @@ main.i: main.cc.i
 
 # target to preprocess a source file
 main.cc.i:
-	$(MAKE) -f CMakeFiles/ttcp.dir/build.make CMakeFiles/ttcp.dir/main.cc.i
+	$(MAKE) -f CMakeFiles/echo.dir/build.make CMakeFiles/echo.dir/main.cc.i
 .PHONY : main.cc.i
 
 main.s: main.cc.s
@@ -183,56 +207,8 @@ main.s: main.cc.s
 
 # target to generate assembly for a file
 main.cc.s:
-	$(MAKE) -f CMakeFiles/ttcp.dir/build.make CMakeFiles/ttcp.dir/main.cc.s
+	$(MAKE) -f CMakeFiles/echo.dir/build.make CMakeFiles/echo.dir/main.cc.s
 .PHONY : main.cc.s
-
-ttcp.o: ttcp.cc.o
-.PHONY : ttcp.o
-
-# target to build an object file
-ttcp.cc.o:
-	$(MAKE) -f CMakeFiles/ttcp.dir/build.make CMakeFiles/ttcp.dir/ttcp.cc.o
-.PHONY : ttcp.cc.o
-
-ttcp.i: ttcp.cc.i
-.PHONY : ttcp.i
-
-# target to preprocess a source file
-ttcp.cc.i:
-	$(MAKE) -f CMakeFiles/ttcp.dir/build.make CMakeFiles/ttcp.dir/ttcp.cc.i
-.PHONY : ttcp.cc.i
-
-ttcp.s: ttcp.cc.s
-.PHONY : ttcp.s
-
-# target to generate assembly for a file
-ttcp.cc.s:
-	$(MAKE) -f CMakeFiles/ttcp.dir/build.make CMakeFiles/ttcp.dir/ttcp.cc.s
-.PHONY : ttcp.cc.s
-
-ttcp_blocking.o: ttcp_blocking.cc.o
-.PHONY : ttcp_blocking.o
-
-# target to build an object file
-ttcp_blocking.cc.o:
-	$(MAKE) -f CMakeFiles/ttcp.dir/build.make CMakeFiles/ttcp.dir/ttcp_blocking.cc.o
-.PHONY : ttcp_blocking.cc.o
-
-ttcp_blocking.i: ttcp_blocking.cc.i
-.PHONY : ttcp_blocking.i
-
-# target to preprocess a source file
-ttcp_blocking.cc.i:
-	$(MAKE) -f CMakeFiles/ttcp.dir/build.make CMakeFiles/ttcp.dir/ttcp_blocking.cc.i
-.PHONY : ttcp_blocking.cc.i
-
-ttcp_blocking.s: ttcp_blocking.cc.s
-.PHONY : ttcp_blocking.s
-
-# target to generate assembly for a file
-ttcp_blocking.cc.s:
-	$(MAKE) -f CMakeFiles/ttcp.dir/build.make CMakeFiles/ttcp.dir/ttcp_blocking.cc.s
-.PHONY : ttcp_blocking.cc.s
 
 # Help Target
 help:
@@ -240,24 +216,21 @@ help:
 	@echo "... all (the default if no target is provided)"
 	@echo "... clean"
 	@echo "... depend"
+	@echo "... echo"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... ttcp"
 	@echo "... Timestamp.o"
 	@echo "... Timestamp.i"
 	@echo "... Timestamp.s"
 	@echo "... common.o"
 	@echo "... common.i"
 	@echo "... common.s"
+	@echo "... echo.o"
+	@echo "... echo.i"
+	@echo "... echo.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... ttcp.o"
-	@echo "... ttcp.i"
-	@echo "... ttcp.s"
-	@echo "... ttcp_blocking.o"
-	@echo "... ttcp_blocking.i"
-	@echo "... ttcp_blocking.s"
 .PHONY : help
 
 

@@ -126,7 +126,7 @@ void transmit(const Options& opt)
     {
         payload->data[i] = "0123456789ABCDEF"[i%16];
     }
-    double total_mb = 1.0 * opt.length * opt.number / 1024 / 2014;
+    double total_mb = 1.0 * opt.length * opt.number / 1024 / 1024;
     printf("%.3f Mib in total\n", total_mb);
 
     for(int i = 0; i < opt.number; ++i)

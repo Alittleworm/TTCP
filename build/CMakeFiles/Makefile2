@@ -56,38 +56,38 @@ CMAKE_SOURCE_DIR = /home/dd/dd/TTCP/ttcp
 CMAKE_BINARY_DIR = /home/dd/dd/TTCP/build
 
 #=============================================================================
-# Target rules for target CMakeFiles/ttcp.dir
+# Target rules for target CMakeFiles/echo.dir
 
 # All Build rule for target.
-CMakeFiles/ttcp.dir/all:
-	$(MAKE) -f CMakeFiles/ttcp.dir/build.make CMakeFiles/ttcp.dir/depend
-	$(MAKE) -f CMakeFiles/ttcp.dir/build.make CMakeFiles/ttcp.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/dd/dd/TTCP/build/CMakeFiles  1 2 3 4 5
-	@echo "Built target ttcp"
-.PHONY : CMakeFiles/ttcp.dir/all
+CMakeFiles/echo.dir/all:
+	$(MAKE) -f CMakeFiles/echo.dir/build.make CMakeFiles/echo.dir/depend
+	$(MAKE) -f CMakeFiles/echo.dir/build.make CMakeFiles/echo.dir/build
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/dd/dd/TTCP/build/CMakeFiles  1 2 3 4
+	@echo "Built target echo"
+.PHONY : CMakeFiles/echo.dir/all
 
 # Include target in all.
-all: CMakeFiles/ttcp.dir/all
+all: CMakeFiles/echo.dir/all
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/ttcp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dd/dd/TTCP/build/CMakeFiles 5
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ttcp.dir/all
+CMakeFiles/echo.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dd/dd/TTCP/build/CMakeFiles 4
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/echo.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/dd/dd/TTCP/build/CMakeFiles 0
-.PHONY : CMakeFiles/ttcp.dir/rule
+.PHONY : CMakeFiles/echo.dir/rule
 
 # Convenience name for target.
-ttcp: CMakeFiles/ttcp.dir/rule
-.PHONY : ttcp
+echo: CMakeFiles/echo.dir/rule
+.PHONY : echo
 
 # clean rule for target.
-CMakeFiles/ttcp.dir/clean:
-	$(MAKE) -f CMakeFiles/ttcp.dir/build.make CMakeFiles/ttcp.dir/clean
-.PHONY : CMakeFiles/ttcp.dir/clean
+CMakeFiles/echo.dir/clean:
+	$(MAKE) -f CMakeFiles/echo.dir/build.make CMakeFiles/echo.dir/clean
+.PHONY : CMakeFiles/echo.dir/clean
 
 # clean rule for target.
-clean: CMakeFiles/ttcp.dir/clean
+clean: CMakeFiles/echo.dir/clean
 .PHONY : clean
 
 #=============================================================================

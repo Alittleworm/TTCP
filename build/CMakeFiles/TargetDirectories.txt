@@ -1,1 +1,1 @@
-/home/dd/dd/TTCP/build/CMakeFiles/ttcp.dir
+/home/dd/dd/TTCP/build/CMakeFiles/echo.dir
